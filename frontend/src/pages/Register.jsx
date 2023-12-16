@@ -18,9 +18,8 @@ function Register() {
         }))
     }
 
-    let e;
-    const onSubmit = (e) = {
-        // e.preventDefault()
+    const onSubmit = (e) => {
+        e.preventDefault()
     }
 
     return (

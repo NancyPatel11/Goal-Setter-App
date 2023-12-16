@@ -16,8 +16,8 @@ function Login() {
         }))
     }
 
-    let e;
-    const onSubmit = (e) = {
+    const onSubmit = (e) => {
+        e.preventDefault()
     }
 
     return (
